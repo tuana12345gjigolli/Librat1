@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <title>Biblioteka</title>
+<link rel="stylesheet" href="librat.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li onclick="showCategory('children')">Fëmijë</li>
+      <li onclick="showCategory('teens')">Adoleshentë</li>
+      <li onclick="showCategory('adults')">Të Rritur</li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="books-grid" id="booksGrid"></div>
+    <div id="quote"></div>
+  </main>
+
+  <footer>
+    &copy; 2025 Biblioteka. Të gjitha të drejtat e rezervuara.
+  </footer>
+
+  <script src="librat.js"></script>
+</body>
+</html>
